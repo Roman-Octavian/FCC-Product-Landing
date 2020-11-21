@@ -17,7 +17,7 @@
         <ul id="nav-links">
           <li><a href="#body" class="nav-link">Home</A></li>
           <li><a href="#form" class="nav-link">Products</a></li>
-          <li><a href="#footer" class="nav-link">About</a></li>
+          <li><a href="#contact-div" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -28,15 +28,35 @@
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lxtWMOAHoiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <p id="form-text">Tell us about your experience!</p>
-        <label for="email">Email:
-          <input id="email" type="email" placeholder="e.g. person@example.com" required></input>
-        </label>
-        <div id="submit-div">
-        <input id="submit" type="submit" value="Submit" name="Submit"></input>
+      <div id="form-div">
+        <div id="contact-div">
+          <label for="form">Contact:
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+          </label>
+        </div>
+
+          <div id="name-div">
+              <label class="label-class" for="name">Name:</label>
+                <input type="text" placeholder="e.g. James Smith" name="name" class="fields-class" required></input>
+          </div>
+
+          <div id="email-div">
+              <label class="label-class" for="email">Email:</label>
+                <input id="email" type="email" placeholder="e.g. person@example.com" name="email" class="fields-class" required></input>
+          </div>
+
+          <div id="textfield-div">
+            <label class="label-class-area" for="textfield">Message:</label>
+              <textarea id="textarea" placeholder="e.g. I love your products!" name="textarea" class="textarea-class"></textarea>
+
+          </div>
+
+          <div id="submit-div">
+            <input id="submit" type="submit" value="Submit" name="submit-form"></input>
+          </div>
+
+        </form>
       </div>
-      </form>
 
     </main>
 
