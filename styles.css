@@ -188,9 +188,15 @@ iframe {
   border-width: medium;
 }
 form {
-  display: inline-block;
-  margin: auto;
-  text-align: left;
+  text-align: center;
+  display: block;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-width: medium;
+  border-style: solid;
+  border-color: gray;
+  padding: 10px 10px 10px 10px;
 }
 .label-class {
   display: block;
@@ -203,17 +209,6 @@ form {
   text-align: left;
   margin-left: 25%;
   margin-top: 10px;
-}
-#form-div {
-  text-align: center;
-  display: block;
-  background-color: white;
-  margin-left: 25%;
-  margin-right: 25%;
-  border-width: medium;
-  border-style: solid;
-  border-color: gray;
-  padding: 10px 10px 10px 10px;
 }
 #contact-div {
   font-family: "Montserrat", monospace;
@@ -314,9 +309,10 @@ hr {
     width: 280px;
     height: 157px;
   }
-  #form-div {
+  form {
     margin-left: 7.5%;
     margin-right: 7.5%;
+    margin-top: 25px;
   }
   .textarea-class {
     width: 90%;
@@ -345,12 +341,12 @@ hr {
     font-size: 2.5vw;
   }
   #shop-div{
-    margin: 20px 2% 50px 2%;
+    margin: 20px 2% 20px 2%;
     padding-top: 20px;
     grid-template-columns: 100%;
     grid-template-rows: 260px 200px 260px 200px 260px 200px 260px 200px 260px 200px 260px 200px;
     grid-row-gap: 0%;
-    grid-column-gap: 0%;
+    grid-column-gap:0%;
     justify-content: center;
     grid-template-areas:
     "first"
