@@ -230,24 +230,29 @@ form {
   height: 30px;
   border-radius: 1%;
 }
-#first-column > a, p {
-  display: block;
-  padding: 10px 0 10px 0;
+#footer-ul {
+  margin-bottom: 1vh;
 }
-#first-column > a {
+.footer-li {
+  display: block;
+  padding: 5px 0 5px 0;
+}
+.footer-li > a {
   color: darkgray;
+}
+#legal > p {
+  color: darkgray;
+  display: block;
+  padding: 5px 0 5px 0;
+}
+#legal {
+  margin-top: 1vh;
 }
 footer {
   background-color: #F5F5F6;
   margin-top: 50px;
-  padding: 1% 2% 0% 2%;
+  padding: 1% 2% 1% 2%;
   border: 1px solid gray;
-}
-#disclaimer {
-  color: darkgray;
-}
-#copyright {
-  color: darkgray;
 }
 hr {
   color: darkgray;
