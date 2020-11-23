@@ -2,11 +2,12 @@
 
 This is the third project included in the freeCodeCamp Responsive Web Design Certification.
 
-You can see the webpage live by going to the following link:
-https://roman-octavian.github.io/FCC-Product-Landing/
+You can go to the live website by clicking the following URL:
 
-This one took a bit longer than the first two since it is the first webpage that's responsive. The form is submitted to a static address as this is an almost exclusively front-end project. I apologize if the script (three green lines menu) at the top left of the webpage is awkwardly placed but I don't want to mess with it because it's required as is by FCC for this project.
+## [Product Landing Page](https://roman-octavian.github.io/FCC-Product-Landing/)
 
-Note: I'm having issues with the CDN from FCC in this challenge. Some user stories won't pass even if they have been completed. I'll try to find a fix.
+---
 
-Thank you for checking out my profile.
+This is my first project that is *somewhat* responsive. I have tried to make it look as appealing as possible but I'm still not good at making things look pretty. I plan to revisit all of these early projects later on.
+
+Note: I'm having issues with the CDN from FCC in this challenge. Some user stories wouldn't appear as completed even if they had been. I managed to have them all pass for now.
